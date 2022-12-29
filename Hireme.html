@@ -79,13 +79,13 @@
             <!-- form  -->
 
 
-             <div id="error_message" class="col-xl-9 col-md-12"></div>
-            <form id="myform" action="https://formsubmit.co/noreenmalikinfo@gmail.com" method="POST"   class="row g-3" >
+             
+            <form id="myform" action="https://formsubmit.co/noreenmalikinfo@gmail.com" method="POST"   class="row g-3" onsubmit = "return validate();">
               
                 <input type="hidden" name="_subject" value="New Inquiry Request">
                <input type="hidden" name="_next" value="https://noreenmalik.co/Pages/thankyou.html">
                 <!-- <div id="error_message" class="col-9"></div> -->
-    
+                <div id="error_message" class="col-xl-10 col-md-12"></div>
                 <div class="col-xl-3 col-md-4 ">
                     <label for="name" class="form-label">Name <span
                             style="color: red; font-size: 1rem;">*</span></label>
